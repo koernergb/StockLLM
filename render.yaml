@@ -7,4 +7,3 @@ services:
     envVars:
       - key: PINECONE_API_KEY
         sync: false
-    plan: free
