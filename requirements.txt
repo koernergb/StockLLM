@@ -1,7 +1,7 @@
 langchain-community 
-streamlit==1.29.0
-langchain==0.0.350
-langchain_pinecone==0.2.2
-sentence-transformers==2.2.2
-pinecone-client==2.2.4
-python-dotenv==1.0.0
+streamlit
+langchain
+langchain_pinecone
+sentence-transformers
+pinecone-client
+python-dotenv
