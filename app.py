@@ -6,6 +6,15 @@ from pinecone import Pinecone
 import time
 import sys
 
+
+# Get port from environment variable with default fallback
+port = int(os.environ.get("PORT", 10000))
+
+# Configure Streamlit port binding
+server_address = "0.0.0.0"
+server_port = port
+
+
 # Immediately print startup message
 print("Starting application initialization...")
 
