@@ -1,6 +1,6 @@
 streamlit
+langchain
 langchain_pinecone
-langchain-community
-sentence_transformers
+sentence-transformers
 pinecone-client
 python-dotenv
