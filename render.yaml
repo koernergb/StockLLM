@@ -3,7 +3,8 @@ services:
     name: stock-search
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0
+    startCommand: streamlit run app.py --server.address 0.0.0.0 --server.port $PORT
     envVars:
       - key: PINECONE_API_KEY
         sync: false
+    plan: free
